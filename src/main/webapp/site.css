@@ -1,0 +1,8 @@
+@charset "UTF-8";
+/* site.css */
+.product-card { transition: transform .25s ease, box-shadow .25s ease; }
+.product-card:hover { transform: translateY(-6px) scale(1.03); box-shadow: 0 8px 20px rgba(0,0,0,.15); }
+
+.carousel-item img { height: 320px; object-fit: cover; }
+
+footer { position: relative; bottom: 0; width: 100%; }
